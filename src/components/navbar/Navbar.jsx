@@ -20,6 +20,7 @@ const [open, setOpen] = useState(false)
       <div className="right">
         <a href='/' className=''>Sign in</a>
         <a href='/' className='register'>Sign up</a>
+      {/* For small screen */}
         <div className="menuIcon" >
           <img src='/menu.png' alt="" onClick={() => setOpen(!open)} />
         </div>
