@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const Pin = ({item}) => {
+    console.log(item)
       return (
           <Marker position={[item.latitude, item.longitude]}>
           <Popup>
